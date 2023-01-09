@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3FS5ubc35EMSOMn6fmkEdVrfN5IweQfk6HskZyjP25VRXZtZBdsPJGBVqjbs/E66mOTDRnMaNvT72Kqkk5wpuA==",
+  "dgSpecHash": "ii7aLudFRx54vSRyFxtYJ5bB+M9YM/KhgVz6FasRXEBvO4GRGjR3Lc4RLywX8G9k6b7VtUtTj/mWdc/YeGnSAA==",
   "success": true,
-  "projectFilePath": "H:\\VS\\Guide\\Guide.csproj",
+  "projectFilePath": "D:\\Code\\TextGame\\Guide.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

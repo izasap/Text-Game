@@ -7,24 +7,27 @@ namespace Guide
         public bool fight = true;
         public int turn = 0;
         readonly Player player = new();
-        readonly Volf volf = new();
+        readonly Enemy enemy = new();
         readonly Random rand = new();
-        public void Start()
+        readonly Difficul difficul = new();
+        public void Start(int x, int y)
         {
             player.Get();
-            volf.Get();
+            enemy.Get();
             fight = true;
             turn = 0;
 
             while (fight)
             {
-                if (volf.HP < 1 || player.HP < 1)
+                if (enemy.HP < 1 || player.HP < 1)
                 {
                     fight = !fight;
 
-                    if(volf.HP < 1)
+                    if(enemy.HP < 1)
                     {
                         Console.WriteLine("Вы выиграли!");
+                        difficul.enemy[x, y] = false;
+                        //difficul.Delete("enemy", x, y);
                     }
 
                     else
@@ -56,7 +59,7 @@ namespace Guide
             switch(Console.ReadKey().Key)
             {
                 case ConsoleKey.D1:
-                    volf.HP = volf.Defend < player.Damage ? volf.HP - (player.Damage - volf.Defend) : volf.HP = volf.HP - 1;
+                    enemy.HP = enemy.Defend < player.Damage ? enemy.HP - (player.Damage - enemy.Defend) : enemy.HP = enemy.HP - 1;
                     turn++;
                     break;
                 case ConsoleKey.D2:
@@ -64,9 +67,8 @@ namespace Guide
                     break;
             }
 
-            Console.WriteLine($"У врага осталось {volf.HP}");
-            Console.WriteLine($"Ход {turn}");
-            Console.WriteLine("");
+            Console.WriteLine($"У врага осталось {enemy.HP}");
+            Console.WriteLine($"Ход {turn}\n");
         }
 
         void T1()
@@ -93,17 +95,15 @@ namespace Guide
                     break;
             }
 
-            Console.WriteLine($"Ход {turn}");
-            Console.WriteLine("");
+            Console.WriteLine($"Ход {turn}\n");
         }
 
         void T2()
         {
-            player.HP = player.Defend < volf.Damage ? player.HP - (volf.Damage - player.Defend) : player.HP = player.HP - 1;
+            player.HP = player.Defend < enemy.Damage ? player.HP - (enemy.Damage - player.Defend) : player.HP = player.HP - 1;
             turn = 0;
             Console.WriteLine($"У вас осталось {player.HP} здоровья");
-            Console.WriteLine($"Ход {turn}");
-            Console.WriteLine("");
+            Console.WriteLine($"Ход {turn}\n");
         }
     }
 }

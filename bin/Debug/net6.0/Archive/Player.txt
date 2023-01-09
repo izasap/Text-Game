@@ -5,3 +5,5 @@
 50
 1
 0
+wood
+wooden
