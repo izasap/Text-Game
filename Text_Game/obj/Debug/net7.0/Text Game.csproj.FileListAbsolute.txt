@@ -1,0 +1,15 @@
+/home/izasap/Code/Text Game/bin/Debug/net7.0/Text Game
+/home/izasap/Code/Text Game/bin/Debug/net7.0/Text Game.deps.json
+/home/izasap/Code/Text Game/bin/Debug/net7.0/Text Game.runtimeconfig.json
+/home/izasap/Code/Text Game/bin/Debug/net7.0/Text Game.dll
+/home/izasap/Code/Text Game/bin/Debug/net7.0/Text Game.pdb
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.csproj.AssemblyReference.cache
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.GeneratedMSBuildEditorConfig.editorconfig
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.AssemblyInfoInputs.cache
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.AssemblyInfo.cs
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.csproj.CoreCompileInputs.cache
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.dll
+/home/izasap/Code/Text Game/obj/Debug/net7.0/refint/Text Game.dll
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.pdb
+/home/izasap/Code/Text Game/obj/Debug/net7.0/Text Game.genruntimeconfig.cache
+/home/izasap/Code/Text Game/obj/Debug/net7.0/ref/Text Game.dll

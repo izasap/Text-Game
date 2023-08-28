@@ -1,0 +1,15 @@
+D:\Code\YouTube\Text_Game\Text_Game\bin\Release\net7.0\Text_Game.exe
+D:\Code\YouTube\Text_Game\Text_Game\bin\Release\net7.0\Text_Game.deps.json
+D:\Code\YouTube\Text_Game\Text_Game\bin\Release\net7.0\Text_Game.runtimeconfig.json
+D:\Code\YouTube\Text_Game\Text_Game\bin\Release\net7.0\Text_Game.dll
+D:\Code\YouTube\Text_Game\Text_Game\bin\Release\net7.0\Text_Game.pdb
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.csproj.AssemblyReference.cache
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.AssemblyInfoInputs.cache
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.AssemblyInfo.cs
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.csproj.CoreCompileInputs.cache
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.dll
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\refint\Text_Game.dll
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.pdb
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\Text_Game.genruntimeconfig.cache
+D:\Code\YouTube\Text_Game\Text_Game\obj\Release\net7.0\ref\Text_Game.dll
