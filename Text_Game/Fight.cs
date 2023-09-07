@@ -1,4 +1,7 @@
-﻿namespace Text_Game
+﻿using System.Data;
+using MySql.Data.MySqlClient;
+
+namespace Text_Game
 {
     class Fight
     {
@@ -165,17 +168,16 @@
         {
             Random rand = new Random();
 
-            switch (rand.Next(1) + 1)
+            switch(rand.Next(2) + 1)
             {
                 case 1:
-                    return new Wolf();
+                    return new Fox();
 
-                    break;
+                case 2:
+                    return new Wolf();
 
                 default:
                     return null;
-
-                    break;
             }
         }
     }

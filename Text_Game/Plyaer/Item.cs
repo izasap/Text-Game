@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.Contracts;
-
-namespace Text_Game
+﻿namespace Text_Game.Plyaer
 {
     public interface ISword
     {

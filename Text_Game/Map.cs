@@ -98,8 +98,6 @@ namespace Text_Game
             Thread.Sleep(100);
             #endif
 
-            bool is_x = true;
-
             GetXY(walls[0], out x, out y);
 
             bool[,] is_wall = new bool[x, y];
@@ -110,8 +108,6 @@ namespace Text_Game
             #if RELEASE
             Thread.Sleep(100);
             #endif
-
-            is_x = true;
 
             GetXY(walls[1], out spawn_x, out spawn_y);
 
@@ -126,7 +122,6 @@ namespace Text_Game
             {
                 int x_wall = 0;
                 int y_wall = 0;
-                is_x = true;
 
                 GetXY(walls[i], out x_wall, out y_wall);
 
@@ -204,7 +199,6 @@ namespace Text_Game
             for (int i = 1; i < enemiescount + 1; i++)
             {
                 int x = 0, y = 0;
-                bool is_x = true;
                 string pos = File.ReadAllLines(enemypath)[i];
 
                 GetXY(pos, out x, out y);
@@ -222,7 +216,6 @@ namespace Text_Game
             for (int i = 1; i < itemscount + 1; i++)
             {
                 int x = 0, y = 0;
-                bool is_x = true;
                 string pos = File.ReadAllLines(itempath)[i];
 
                 GetXY(pos, out x, out y);
